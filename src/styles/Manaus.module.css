@@ -1,0 +1,75 @@
+.mantip {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 12px;
+    position: absolute;
+    width: 153px;
+    height: 40px;
+    left: 610px;
+    top: 365px;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.manarrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid #ffffff;
+    /* transform: rotate(180deg); */
+    /* width: 25.71px;
+    height: 18px; */
+    z-index: -2;
+    position: absolute;
+    bottom: 255px;
+    left: 675px;
+}
+
+.mansquare {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #f8a243;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.mansquare svg {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.mancity {
+    width: 80px;
+    height: 12px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+    color: #383874;
+}
+
+.manpopulation {
+    width: 40px;
+    height: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #383874;
+
+}

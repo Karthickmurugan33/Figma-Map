@@ -1,0 +1,75 @@
+.bertip {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 12px;
+    position: absolute;
+    width: 153px;
+    height: 40px;
+    left: 810px;
+    top: 140px;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.berarrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid #FFFFFF;
+    /* transform: rotate(180deg); */
+    /* width: 25.71px;
+    height: 18px; */
+    z-index: 1;
+    position: absolute;
+    top: 180px;
+    left: 885px;
+}
+
+.bersquare {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #7bdda2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bersquare svg {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.bercity {
+    width: 80px;
+    height: 12px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+    color: #383874;
+}
+
+.berpopulation {
+    width: 40px;
+    height: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #383874;
+
+}

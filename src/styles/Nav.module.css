@@ -1,0 +1,116 @@
+.nav {
+    width: 1535px;
+    height: 60px;
+
+    background-color: #ffffff;
+    border-radius: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+}
+
+/* .logo {
+    position: absolute;
+    width: 161px;
+    height: 22px;
+    left: 37px;
+    top: calc(50% - 22px/2);
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.5076px;
+    line-height: 22px;
+    color: #000000;
+} */
+.logo {
+    position: absolute;
+    left: 0.82%;
+    right: 0.82%;
+    top: 10px;
+    bottom: 1.67%;
+}
+
+.log {
+    width: 39.34px;
+    height: 39.33px;
+    border-radius: 50%;
+}
+
+.name {
+    position: absolute;
+    width: 161px;
+    height: 22px;
+    left: 43px;
+    top: calc(50% - 80px /2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.5px;
+    line-height: 22px;
+    color: #000000;
+    /* background-color: red; */
+
+}
+
+.input {
+    position: absolute;
+    width: 520px;
+    height: 32px;
+    left: 230px;
+    top: 10px;
+    background-color: #EEF0FA;
+    border-radius: 8px;
+
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    /* width: 571px; */
+    height: 24px;
+    left: calc(50% - 650px/2 + 352.5px);
+    top: calc(50% - 24px/2);
+}
+
+.menu {
+    /* width: 75px; */
+    height: 24px;
+}
+
+.profile {
+
+    position: absolute;
+    width: 16px;
+    right: 200px;
+
+    top: 8.33%;
+    bottom: 4.17%;
+
+    /* background: #d0d1f0; */
+}
+
+.icon {
+    position: absolute;
+    width: 26px;
+    right: 4px;
+    top: 15.33%;
+    bottom: 4.17%;
+
+    background: #1f24be;
+}
+
+.slider {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 40px;
+    right: 0px;
+    top: calc(50% - 34px/2);
+}
