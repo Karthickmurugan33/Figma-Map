@@ -4,7 +4,7 @@ import { TbBuildingPavilon } from "react-icons/tb";
 const Shangai = () => {
     return (
         <div>
-            <div className="">
+            <div>
                 <div className={style.shantip}>
                     <div className={style.shansquare}>
                         <TbBuildingPavilon />
