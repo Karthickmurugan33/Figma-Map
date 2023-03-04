@@ -1,0 +1,934 @@
+.time {
+    width: 82px;
+    height: 16px;
+    left: calc(50% - 82px /2 + 162px);
+    top: 95px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 5px;
+
+    position: absolute;
+
+    text-transform: uppercase;
+    color: #3d3d60;
+}
+
+.head {
+    width: 351px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    position: absolute;
+    left: 750px;
+    top: 130px;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+
+
+}
+
+.headAll {
+    width: 351px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.spanOne {
+    /* width: 53px;
+    height: 36px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* text-align: center; */
+    letter-spacing: 0.44px;
+    text-align: center;
+    color: #000000;
+    /* margin-left: 20px; */
+
+}
+
+.spanTwo {
+    /* width: 53px;
+    height: 36px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.44px;
+    color: #000000;
+    /* margin-left: 20px; */
+    /* margin-top: -36px; */
+    text-align: center;
+
+
+}
+
+.spanThree {
+    width: 53px;
+    height: 36px;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 34px;
+    letter-spacing: 0.02px;
+    color: #ffffff;
+    background-color: #3247e6;
+    border-radius: 16px;
+    /* margin-left: 20px; */
+    /* margin-top: -36px; */
+    text-align: center;
+
+
+}
+
+.spanFour {
+    /* width: 53px;
+    height: 36px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.44px;
+    color: #000000;
+    /* margin-left: 20px; */
+    /* margin-top: -36px; */
+    text-align: center;
+
+
+}
+
+.spanAll {
+    /* width: 53px;
+    height: 36px; */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.44px;
+    color: #000000;
+    /* margin-left: 20px; */
+    /* margin-top: -36px; */
+    text-align: center;
+
+
+}
+
+.slider {
+    width: 46px;
+    height: 298px;
+
+    position: absolute;
+    right: 30px;
+    top: 301px;
+}
+
+.sliderone {
+    width: 46px;
+    height: 92px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.plus {
+    font-size: 25px;
+    position: absolute;
+    top: 10.83px;
+    color: #5a5a89;
+}
+
+.minus {
+    font-size: 25px;
+    position: absolute;
+    top: 60.83px;
+    color: #5a5a89;
+}
+
+.slidertwo {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.emptyCircle {
+    font-size: 25px;
+    color: #5a5a89;
+    opacity: 0.6;
+
+
+}
+
+.sliderthree {
+    width: 46px;
+    height: 132px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buble1 {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: calc(50% - 47px/2 + 620.5px);
+    top: calc(50% - 47px/2 + 268.5px);
+    border-radius: 50%;
+
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%), #030092;
+    box-shadow: 0px 4px 80px rgba(35, 0, 248, 0.46), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 10px 16px 20px rgba(130, 5, 255, 0.95);
+}
+
+.buble2 {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    left: calc(50% - 47px/2 - 319.5px);
+    top: calc(50% - 47px/2 - 150.5px);
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #030092;
+    box-shadow: 0px 4px 80px rgba(35, 0, 248, 0.46), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 10px 16px 20px rgba(130, 5, 255, 0.95);
+}
+
+.buble3 {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: calc(50% - 61px/2 - 260.5px);
+    top: calc(50% - 61px/2 + 260.5px);
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(255, 255, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #2A27B9;
+    box-shadow: 0px 50px 80px rgba(35, 0, 248, 0.31), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 10px 16px 20px rgba(130, 5, 255, 0.95);
+}
+
+.buble4 {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    left: 69.38%;
+    right: 26.72%;
+    top: 70.74%;
+    bottom: 22.31%;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #838FFF 0%, rgba(227, 230, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #030092;
+    box-shadow: 0px 40px 80px rgba(35, 0, 248, 0.53), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -20px 50px rgba(124, 161, 255, 0.37), inset 10px 16px 20px rgba(130, 5, 255, 0.95);
+}
+
+.buble5 {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: calc(50% - 105px/2 + 449.5px);
+    top: calc(50% - 105px/2 - 127.5px);
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #838FFF 0%, rgba(227, 230, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #030092;
+    box-shadow: 0px 40px 80px rgba(35, 0, 248, 0.24), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -20px 50px rgba(124, 161, 255, 0.37), inset 10px 16px 20px rgba(130, 5, 255, 0.95);
+}
+
+.bigwidget {
+    position: absolute;
+    width: 578px;
+    height: 578px;
+    box-sizing: border-box;
+    left: 41.26%;
+    /* right: 3.59%; */
+    top: 18.4%;
+    bottom: 0;
+    border: 20px solid rgba(255, 255, 255, 0.3);
+    z-index: -2;
+    border-radius: 50%;
+    /* background-color: #838FFF; */
+}
+
+.smallwidget {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 478px;
+    height: 478px;
+    background-color: #ffffff;
+    /* opacity: 0.5; */
+    border-radius: 50%;
+
+
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+}
+
+.bigbubble {
+    width: 180px;
+    height: 180px;
+
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #838FFF 0%, rgba(227, 230, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #030092;
+    box-shadow: 0px 40px 80px rgba(35, 0, 248, 0.24), inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -20px 50px rgba(124, 161, 255, 0.37), inset 10px 16px 20px rgba(207, 163, 252, 0.95);
+    position: absolute;
+    left: 32%;
+    top: 30%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigpara1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #ffffff;
+    /* position: absolute; */
+}
+
+.bigspan1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+.months {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #DDDDFF;
+
+
+}
+
+.bubleinversment {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #C500F7;
+    /* 55456 */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 157, 203, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53), inset 10px 20px 100px #FF8777;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.finance1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.financeamount {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+}
+
+.bubledevelopment {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #C500F7;
+    /* 55456 */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 157, 203, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53), inset 10px 20px 100px #FF8777;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finance2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.financeamount2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+}
+
+.bubleDisign {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #C500F7;
+    /* 55456 */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 157, 203, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53), inset 10px 20px 100px #FF8777;
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubleBuss {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #C500F7;
+    /* 55456 */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 157, 203, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53), inset 10px 20px 100px #FF8777;
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubleempty {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #C500F7;
+    /* 55456 */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 157, 203, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53), inset 10px 20px 100px #FF8777;
+    position: absolute;
+    left: 55%;
+    top: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubleyellow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFB84D 0%, rgba(119, 43, 0, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FF8A00;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 148, 22, 0.33), inset 0px 4px 30px rgba(255, 255, 255, 0.76), inset 0px -20px 50px rgba(255, 255, 255, 0.53);
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #00CAF7;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 180, 215, 0.33), inset 0px 4px 20px rgba(255, 255, 255, 0.76), inset 0px -20px 20px rgba(255, 255, 255, 0.23), inset 10px 20px 100px #583DFF;
+    position: absolute;
+    left: 23%;
+    top: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall2 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #00CAF7;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 180, 215, 0.33), inset 0px 4px 20px rgba(255, 255, 255, 0.76), inset 0px -20px 20px rgba(255, 255, 255, 0.23), inset 10px 20px 100px #583DFF;
+    position: absolute;
+    left: 67%;
+    top: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall3 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #FFE3D3 0%, rgba(179, 0, 183, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #00CAF7;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.13), 60px 120px 80px rgba(255, 180, 215, 0.33), inset 0px 4px 20px rgba(255, 255, 255, 0.76), inset 0px -20px 20px rgba(255, 255, 255, 0.23), inset 10px 20px 100px #583DFF;
+    position: absolute;
+    left: 37%;
+    top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall4 {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #5551FD;
+    box-shadow: 0px 4px 80px rgba(248, 0, 119, 0.48), inset 0px 2px 10px rgba(255, 255, 255, 0.58);
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall5 {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #5551FD;
+    box-shadow: 0px 4px 80px rgba(248, 0, 119, 0.48), inset 0px 2px 10px rgba(255, 255, 255, 0.58);
+    position: absolute;
+    left: 80%;
+    top: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall6 {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #5551FD;
+    box-shadow: 0px 4px 80px rgba(248, 0, 119, 0.48), inset 0px 2px 10px rgba(255, 255, 255, 0.58);
+    position: absolute;
+    left: 5%;
+    top: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluesmall7 {
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244E8 0%, rgba(0, 2, 16, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #5551FD;
+    box-shadow: 0px 4px 80px rgba(248, 0, 119, 0.48), inset 0px 2px 10px rgba(255, 255, 255, 0.58);
+    position: absolute;
+    left: 74%;
+    top: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluemedium1 {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #6AE4FF 0%, rgba(74, 147, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #0811E2;
+    box-shadow: inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -6px 10px rgba(63, 209, 255, 0.67), inset 10px 16px 20px rgba(0, 133, 255, 0.95);
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bublbluemedium2 {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #6AE4FF 0%, rgba(74, 147, 255, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #0811E2;
+    box-shadow: inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -6px 10px rgba(63, 209, 255, 0.67), inset 10px 16px 20px rgba(0, 133, 255, 0.95);
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informerTrade {
+    position: absolute;
+    height: 120px;
+    top: 95%;
+    left: 70.94%;
+    right: 23.85%;
+    bottom: 89px;
+    /* background-color: red; */
+
+}
+
+.informetTradeicon {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 27px;
+    top: 0px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    /* Widget shadow */
+
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+    border-radius: 8px;
+}
+
+.infoletter {
+    position: absolute;
+    width: 134px;
+    height: 16px;
+    left: -10px;
+    top: 62px;
+
+    /* Tips and details / Overline */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    /* Night Blue */
+
+    color: #383874;
+}
+
+.infonumber {
+    position: absolute;
+    width: 104px;
+    height: 80px;
+    left: -2px;
+    top: 66px;
+
+    /* Headline / H2 */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: -1.5px;
+
+    /* Night Blue */
+
+    color: #383874;
+
+}
+
+.tradeicon {
+
+    position: absolute;
+    left: 50.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 8.33%;
+
+    /* Blue */
+
+    color: #023AFF;
+}
+
+/* ================================== */
+.informerTrade1 {
+    position: absolute;
+    height: 146px;
+    top: 95%;
+    left: 55.83%;
+    right: 38.96%;
+    bottom: 10px;
+
+    /* background-color: red; */
+
+}
+
+.informetTradeicon1 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 27px;
+    top: 0px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    /* Widget shadow */
+
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+    border-radius: 8px;
+}
+
+.infoletter1 {
+    position: absolute;
+    width: 134px;
+    height: 16px;
+    left: -10px;
+    top: 62px;
+
+    /* Tips and details / Overline */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    /* Night Blue */
+
+    color: #383874;
+}
+
+.infonumber1 {
+    position: absolute;
+    width: 104px;
+    height: 80px;
+    left: -30px;
+    top: 66px;
+
+    /* Headline / H2 */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: -1.5px;
+
+    /* Night Blue */
+
+    color: #383874;
+
+}
+
+.tradeicon1 {
+
+    position: absolute;
+    left: 50.5%;
+    right: 12.5%;
+    top: 10.5%;
+    bottom: 8.33%;
+
+    /* Blue */
+
+    color: #023AFF;
+}
+
+/* ==================================================== */
+.informerTrade2 {
+    position: absolute;
+    height: 146px;
+    left: 40.73%;
+    top: 95%;
+    right: 54.06%;
+    bottom: 89px;
+    /* background-color: red; */
+
+}
+
+.informetTradeicon2 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 27px;
+    top: 0px;
+
+    /* Snow */
+
+    background: #FFFFFF;
+    /* Widget shadow */
+
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+    border-radius: 8px;
+}
+
+.infoletter2 {
+    position: absolute;
+    width: 93px;
+    height: 16px;
+    left: 9px;
+    top: 62px;
+
+    /* Tips and details / Overline */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    /* Night Blue */
+
+    color: #383874;
+}
+
+.infonumber2 {
+    position: absolute;
+    width: 106px;
+    height: 80px;
+    left: -3px;
+    top: 66px;
+
+    /* Headline / H2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: -1.5px;
+
+    /* Night Blue */
+
+    color: #383874;
+
+}
+
+.tradeicon2 {
+
+    position: absolute;
+    left: 50.5%;
+    right: 12.5%;
+    top: 10.5%;
+    bottom: 8.33%;
+
+    /* Blue */
+
+    color: #023AFF;
+}
